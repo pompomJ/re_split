@@ -1,0 +1,6 @@
+# アルファベットの大文字で文字列を分割
+
+import re
+
+umaibo_taste = re.split("[A-Z]+", "cheeseANDmentai")
+print(umaibo_taste)
